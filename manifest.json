@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Content Control",
+  "version": "1.0",
+  "description": "Control what content you see on X (formerly Twitter)",
+  "permissions": ["scripting", "storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "host_permissions": [
+    "*://x.com/*",
+    "*://www.x.com/*"
+  ]
+}

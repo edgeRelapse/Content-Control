@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extension Settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="assets/banner.png">
+        <div class="settings">
+            <div class="row">
+                <img src="assets/scroll.png" class="icon">
+                <p>Auto Scroller</p>
+                <label class="switch">
+                    <input type="checkbox" id="websiteOptimization">
+                    <span class="slider dark-slider"></span>
+                </label>
+            </div>
+
+            <div class="row">
+                <img src="assets/media.png" class="icon">
+                <p>Filter Non-Media posts</p>
+                <label class="switch">
+                    <input type="checkbox" id="mediaFilter"> <!-- Corrected ID -->
+                    <span class="slider dark-slider"></span>
+                </label>
+            </div>
+
+            <div class="row" style="border-bottom: 0;">
+                <img src="assets/sidebar.png" class="icon">
+                <p>Remove Sidebars</p>
+                <label class="switch">
+                    <input type="checkbox" id="removeSidebars">
+                    <span class="slider dark-slider"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="settings" style="margin-top: 1rem;">
+            <a href="https://x.com/edgeRelapse" target="_blank">
+                <div class="row" style="border-bottom: 0;">
+                    <img src="assets/heart.png" class="icon">
+                    <p>Follow the creator</p>
+                    <img src="assets/rightarrow.png" class="righticon">
+                </div>
+            </a>
+        </div>
+        
+
+        <div class="footer">
+            <p>Made with ❤️ by @edgeRelapse</p>
+            <p>Version 1.0</p>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
